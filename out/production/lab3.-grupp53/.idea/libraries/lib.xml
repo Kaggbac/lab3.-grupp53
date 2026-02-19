@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-platform-engine-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-platform-commons-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-api-5.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-engine-5.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/jspecify-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/opentest4j-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-engine-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-api-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/opentest4j-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-jupiter-params-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/apiguardian-api-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-platform-engine-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../design_lab1/out/production/design_lab/lib/junit-platform-commons-6.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
