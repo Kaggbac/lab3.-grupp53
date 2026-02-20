@@ -55,32 +55,31 @@ public class CarController {
                 Car car = cars.get(i);
                 car.move();
 
-                int x = (int) Math.round(car.getX());
-                int y = (int) Math.round(car.getY());
+                //int x = (int) Math.round(car.getX());
+                //int y = (int) Math.round(car.getY());
 
-                if (y > 700 || y < 0) {
+                if (isOutOfBounds(car)) {
                     car.stopEngine();
                     car.turnLeft();
                     car.turnLeft();
                     car.startEngine();
                 }
 
-                if (car instanceof Volvo240) {
-                    double dist = Math.sqrt(Math.pow(car.getX() -300, 2));
-                    if (dist < 10) {
-                        workshop.carIntake((Volvo240) car);
-                        cars.remove(car);
-                        i--;
+                if (car instanceof Volvo240 && isNearWorkshop(car)) {
+                    workshop.carIntake((Volvo240) car);
+                    cars.remove(car);
+                    i--;
                     }
                 }
-                frame.drawPanel.moveit(x, y);
-                // repaint() calls the paintComponent method of the panel
-            }
             frame.drawPanel.repaint();
-
         }
     }
-
+    void brake(int amount) {
+        double brakeVal = ((double) amount) /100;
+        for (Car car : cars) {
+            car.brake(brakeVal);
+        }
+    }
     // Calls the gas method for each car once
     void gas(int amount) {
         double gas = ((double) amount) / 100;
